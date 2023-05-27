@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Calculator</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body align=center>
@@ -16,13 +17,13 @@
 			<div class="col-md-4">
 				<form class="form-horizontal" method="post">
 					<div class="form-group">
-						<label class="control-label col-xs-3" for="var_1">Number1 :</label>
+						<label class="control-label col-xs-3" for="var_1">Text :</label>
 						<div class="col-xs-7">
 							<input type="text" class="form-control" name="string"  value="{{ request.form['var_1'] }}" placeholder="&nbsp;0&nbsp;">
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="control-label col-xs-3" for="var_1">Number2 :</label>
+						<label class="control-label col-xs-3" for="var_1">Keyword :</label>
 						<div class="col-xs-7">
 							<input type="text" class="form-control" name="keyword"  value="{{ request.form['var_2'] }}" placeholder="&nbsp;0&nbsp;">
 						</div>
