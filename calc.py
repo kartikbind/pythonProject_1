@@ -3,6 +3,7 @@ from string import ascii_uppercase as alphabet
 
 
 def generateKey(string, key):
+    key = key.upper()
     key = list(key)
     string = string.upper()
     if len(string) == len(key):
